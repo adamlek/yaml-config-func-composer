@@ -1,0 +1,11 @@
+default:
+  steps:
+    - action: funcs/upper_func
+      params:
+        do_upper: True
+    - action: funcs/repeat_func
+      params:
+        n: 4
+    - action: funcs/addstr_func
+      params:
+        add_str: More information!
